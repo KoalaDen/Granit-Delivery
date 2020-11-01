@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    height: 150vh;
+    font-family: "Roboto";
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: currentColor;
+    text-decoration: none;
+}
+.container-fluid { 
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*header and menu*/
+header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: black;
+    white-space: normal;
+    
+}
+header a {
+    display: inline-block;
+    color: black;
+}
+header img {
+    height: 50px;
+    margin-top: -36px;
+    margin-right: 5px;
+}
+.header-left {
+    text-align: left;
+    white-space: nowrap;
+    padding-top: 20px;   
+}
+.header-right {
+    text-align: right;
+    padding-top: 20px; 
+}
+.brand-text {
+    font-size: 20px;
+    line-height: .9em;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.text-delivery {
+    font-size: 12px;
+    color: gray;
+}
+.phone-number {
+    font-weight: 500;
+    text-align: right;
+    font-size: 19px;
+    font-weight: 500;
+}
+.free-call-head { 
+    font-size: 12px;
+    color: gray;
+    font-weight: 500;   
+}
+.call-back-head {
+    width: 160px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 7px;
+    font-size: 14px;
+    transition: all .5s ease;
+    border: 2px solid black;
+    font-weight: 500;
+    white-space: nowrap;
+    color: black;
+}
+.call-back-head:hover {
+    background-color: black;
+    color: white;
+    transition: all .5s ease;   
+}
+
+.navigation {
+    background-color: #ffcc00;
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.navigation a {
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+    transition: all .5s ease;
+    display: inline-block;
+    
+}
+.navigation a:hover {
+    background-color: black;
+    color: white;
+    text-decoration-line: none;
+    transition: all .5s ease;
+}
+.info {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.info img {
+    height: 50px; 
+}
+
+/*slider*/
+
+.slider {
+    width: 100%;
+    position: relative;
+    top: -30px;
+}
+.slider-background {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.delivery-wrap {
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    top: 0;
+    left: 0;
+}
+.wrap-black {
+    background-color: black;
+    opacity: .3;
+}
+.delivery-block {
+    text-align: left;
+    margin-top: 120px;
+    color: white;
+}
+.delivery-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.delivery-block p {
+    max-width: 250px;
+    margin-bottom: 50px;
+}
+.delivery-block a {
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    color: white;
+    transition: all .5s ease;
+    text-align: center;
+    padding-top: 10px;
+    border: 2px solid #ffcc00;
+}
+.delivery-block a:hover {
+    background-color: #ffcc00;
+    color: black;
+    transition: all .5s ease;
+}
+
+/*2nd block*/
+
+.second-block {
+    text-align: center;
+    
+    padding: 50px 0 70px 0;
+    
+}
+.second-block .row {
+    width: 100%;
+    margin-top: 60px;
+}
+.stack {
+    min-width: 300px;
+    min-height: 470px;
+    border: 3px solid #f6f6f6;
+    
+    margin: 10px;
+    max-width: 300px;
+    max-height: 470px;
+    
+}
+.stack p {
+    line-height: 1em;
+    font-size: 14px;
+}
+.stack h6 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.stack h5 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.stack div img {
+/*    object-fit: contain;*/
+    max-width: 100%;
+    max-height: 160px;
+    margin-top: 30px;
+}
+.sand,
+.gravel,
+.earth {
+    width: 100%;
+    max-height: 180px;
+}
+.more-button {
+    width: 180px;
+    height: 50px;
+    background-color: #ffd200;
+    transition: all .5s ease;
+    margin: 10px auto 30px auto;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+.more-button:hover {
+    background-color: black;
+    color: white;
+    transition: all .5s ease;
+}
+
+/*3rd block*/
+
+.third-background {
+    background-color: #f4f4f4;
+    min-width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+.third-block {
+    text-align: center;
+    padding: 0;
+}
+.third-block h5 {
+    margin-bottom: 60px; 
+}
+.advantages h6 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.advantages p {
+    font-size: 12px;
+    font-weight: 500;
+}
+.advantages {
+    border: 3px solid #fff;
+    margin: 10px;
+    min-width: 300px;
+    min-height: 250px;
+    max-width: 300px;
+    transition: all .5s ease; 
+}
+.advantages:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05), 
+              0 0px 2px rgba(0,0,0,0.05), 
+              0 4px 4px rgba(0,0,0,0.05),
+              0 6px 8px rgba(0,0,0,0.05);
+    transition: all .5s ease;
+        
+}
+.icon {
+    margin-top: 40px;
+}
+
+/*4th block*/
+
+.fourth-block {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 80px;
+}
+.h5_pproducts {
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+.popular-products {
+    text-align: center;
+    border: 3px solid #f6f6f6;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 220px;
+    padding: 0; 
+}
+.popular-products a {
+    margin: 30px auto 20px auto;
+    display: inline-block;
+}
+.gravel1 {
+    margin: 20px auto 10px auto;
+    max-width: 220px;
+}
+.first-price {
+    text-decoration-line: line-through;
+    color: gray;
+    margin-right: 5px;
+}
+.actual-price {
+    color: red;
+    margin-left: 5px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.buy-button {
+    width: 180px;
+    height: 50px;
+    background-color: #ffd200;
+    transition: all .5s ease;
+    font-weight: 500;
+    padding: 10px;
+}
+.buy-button:hover {
+    background-color: black;
+    color: white;
+    transition: all .5s ease;
+}
+
+/*5th block*/
+
+.fifth-background {
+    background-color: #f4f4f4;
+    min-width: 100%;
+    padding-top: 80px;
+}
+.fifth-block {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.fifth-block h5 {
+    margin-bottom: 60px; 
+}
+.services h6 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.services {
+    border: 3px solid #fff;
+    margin: 10px;
+    
+    max-width: 400px;
+    min-width: 220px;
+    transition: all .5s ease; 
+}
+.services:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05), 
+              0 0px 2px rgba(0,0,0,0.05), 
+              0 4px 4px rgba(0,0,0,0.05),
+              0 6px 8px rgba(0,0,0,0.05);
+    transition: all .5s ease;
+        
+}
+.icon-transp {
+    margin-top: 40px;
+}
+
+/*6th block*/
+
+.google_map {
+    width: 100%;
+    position: relative;
+}
+.contact_wrap {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 0;
+    left: 0;
+    
+}
+.gmap {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.contact_block {
+    width: 380px;
+    height: 360px;
+    background-color: #fff;
+    text-align: left;
+    margin-top: 75px;
+    padding: 60px;
+    padding-top: 50px;
+}
+.loc-pin {
+    margin-top: 150px;
+    margin-left: 45px;
+}
+.contacts-title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+    
+}
+tr {
+    padding-top: 40px;
+    font-size: 14px;
+}
+td:nth-child(1) {
+    margin: 10px;
+    padding-top: 40px;
+}
+td:nth-child(2) {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    background-color: #202020;
+    color: white;
+    
+}
+footer a {
+    display: inline-block;
+    color: white;
+}
+footer img {
+    height: 50px;
+    margin-top: -38px;
+    margin-right: 5px;
+}
+.footer-left {
+    text-align: left;
+    margin-top: 50px;
+}
+.footer-right {
+    text-align: right;
+    margin-top: 55px;
+}
+.call-back {
+    width: 160px;
+    height: 40px;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 7px;
+    font-size: 14px;
+    transition: all .5s ease;
+}
+.call-back:hover {
+    background-color: white;
+    color: black;
+    transition: all .5s ease;   
+}
+.free-call {
+    font-size: 12px;
+    margin-top: 14px;  
+}
+.copyright {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+/*resposibility*/
+
+@media only screen and (max-width: 767px) {
+    
+    .header-right {
+       flex-direction: column;
+        padding-top: 0px;
+    }
+    .header-left {
+        padding-top: 40px;
+    }
+    .advantages {
+        
+    }
+}
+/*для вертикального выравнивания попробовать к каждому элементу align-self-center в атрибует*/
